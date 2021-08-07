@@ -1,0 +1,25 @@
+{
+  "name": "api-2",
+  "version": "1.0.0",
+  "description": "This is my second api i am creating",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Api",
+    "using",
+    "node",
+    "express",
+    "and",
+    "mongodb"
+  ],
+  "author": "Dharm Joshi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.13.5",
+    "nodemon": "^2.0.12",
+    "validator": "^13.6.0"
+  }
+}
