@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose')
 require('./src/db/database');
 const Api = require('./src/models/models');
-const port = 3000;
+const port = process.env.PORT || 3000;
 
 const app = express();
 
@@ -69,5 +69,5 @@ app.delete('/:id',async(req,res)=>{
 })
 
 app.listen(port, ()=>{
-    console.log("application running on the http://127.0.0.1:3000")
+    console.log(`application running on the ${port}` )
 })
